@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdowns and radio buttons</title>
+  </head>
+  <body>
+    <!-- <input type="checkbox"> -->
+
+    <p>Do you prefer cats or dogs?</p>
+
+    <!-- by giving them the same name it only allows you to pick one at a time -->
+    <form>
+      <label for="dogs">Dogs:</label>
+      <input name="petChoice" id="DOGS" type="radio" value="dogs" />
+
+      <label for="cats">Cats</label>
+      <input name="petChoice" id="CATS" type="radio" value="cats" />
+
+      <!-- <p>What's your fovorite color?</p>
+
+      <select name="color">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>yellow</option>
+      </select> -->
+
+      <p>What's your current mood?</p>
+
+      <select name="mood">
+        <option value="happy">:)</option>
+        <option value="neutral">:|</option>
+        <option value="sad">:(</option>
+      </select>
+
+      <textarea name="" id="" cols="30" rows="100"></textarea>
+
+      <!-- if a button is the last thing in a form it will count as a submit butten -->
+      <button>Go!</button>
+    </form>
+  </body>
+</html>
